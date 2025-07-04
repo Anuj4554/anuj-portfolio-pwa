@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anuj Patil - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4CAF50" />
+  <script src="script.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0077cc, #005fa3);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in;
+    }
+
+    h2 {
+      color: #0077cc;
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f8f9fa;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-left: 5px solid #0077cc;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      background: #e3f2fd;
+      transform: translateY(-3px);
+    }
+
+    li h3 {
+      margin-bottom: 0.5rem;
+      color: #005fa3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+      background: #f1f1f1;
+      font-size: 0.95rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      section {
+        margin: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anuj Patil</h1>
+    <p>AI Enthusiast | Researcher | Python Learner</p>
+  </header>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>AI Chatbot Project</h3>
+        <p>A simple chatbot built using Python and ChatGPT APIs.</p>
+      </li>
+      <li>
+        <h3>Generative Artificial Intelligence</h3>
+        <p>Worked on projects using Generative AI for creative content generation.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Natural Language Processing (NLP)</li>
+      <li>HTML & CSS</li>
+      <li>Content Writing</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📞 Contact: 8806520701</p>
+    <p>📧 Email: anujpatil070745@gmail.com</p>
+    <p>© 2025 Anuj Patil</p>
+  </footer>
+</body>
+</html>
